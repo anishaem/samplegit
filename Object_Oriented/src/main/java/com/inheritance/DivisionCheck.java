@@ -17,9 +17,9 @@ public class DivisionCheck extends AdditionResult {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		
-	AdditionResult a = new AdditionResult(15,20);
+	AdditionResult a = new AdditionResult(0,0);
 	int result=a.addNum();
 	System.out.println("Addition Result is :" + " " + result);
 	DivisionCheck d=   new DivisionCheck(10,20);
@@ -28,6 +28,8 @@ public class DivisionCheck extends AdditionResult {
 	{
 		System.out.println("Result is divisible by 10");
 	}
+	
+	
 	else 
 	{
 		System.out.println("Result is not divisible by 10");
